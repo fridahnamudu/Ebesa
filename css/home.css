@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+   background-color: #79957a;
+}
+
+/* header */
+#header img{
+    position: relative;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color:#214023;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    font-style:inherit;
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #79957a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color:white;
+}
+
+#navbar li a.active ::after,
+#navbar li a:hover ::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+#mobile{
+    display: none;
+    align-items: center;
+}
+
+
+
+
+#home-body{
+    background-image: url("/images/backgroundphoto.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}  
+
+#home-body{
+    color: white;
+    padding-top: 10%;
+}
+.home-content h1{
+    font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+}
+
+#home-body h3{
+    padding-top: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+
+#home-body h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+#home-body h5{
+    padding-top: 55px;
+    font-family: 'Playfair Display', serif;
+}
+
+#home-body .home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    padding: 10px;
+    /* right: 20%; */
+    /* height: 20px;
+    width: 20px; */
+    position: absolute;
+    /* margin-top: 150px; */
+    background: rgb(0, 0, 0);
+    background: rgba(11, 59, 30, 0.5);
+    color:#0b3013;
+    text-align: center;
+    /* margin-left: 20%; */
+    /* margin-right: 65%; */
+    /* margin-bottom: 0; */
+    height: 500px;
+    width: 1000px;
+    /* padding: 20px; */
+    /* padding-left: 20px; */
+    color: white;
+
+}
+
+#home-body button{
+    background:white;
+    color: #0b3013;
+    list-style: none;
+    position: relative;
+    border-radius: 10px;
+    margin-inline: 40px;
+    font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+    /* margin-top: 35%; */
+    /* margin-left: -5%; */
+    display: block;
+    box-shadow:white;
+    border-color: #214023;
+    padding: 10px;
+    width: 30%;
+    
+}
+
+
+#about{
+    background-color: #79957a;
+    text-align: center;
+    color: white;
+}
+/* #about p{
+    font-family:'Playfair Display', serif;
+    font-size: 20px;
+}
+#about h1{
+    font-weight: bold; */
+
+
+#about .column{
+    float: center;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+    background-color: #214023;
+}
+#about .column p{
+    margin-top: 30px;
+    font-size: 19px;
+    font-family: 'Playfair Display', serif;
+
+    
+    /* padding-bottom: 1px; */
+}
+#about .column h3{
+    margin-top: 60px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+
+}
+#about .column button{
+    background:#79957a;
+    color: #0b3013;
+    position: relative;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    display: block;
+    box-shadow: #79957a;
+    border-color: #79957a;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 5px;
+    margin-top: 35px;
+    
+}
+#about .column a{
+    text-decoration: none;
+}
+
+/* footer */
+#footer{
+    background-color: #214023;
+    color: white;
+    height: 300px;
+    position: sticky;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+#footer img{
+    height: 50%;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 2px;
+    /* justify-content: center; */
+}
+#footer h4{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#footer ul{
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+}
+#footer #contact{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#footer #contact i{
+    font-size: 25px;
+}
+#footer #follow{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#footer #follow i{
+    font-size: 25px;
+}
+#footer #follow a{
+    /* text-decoration: none; */
+    color: white;
+}
+#footer #contact a{
+    color: white;
+}
+#footer #part1{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#footer #part2{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#footer #part3{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#footer #part4{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#footer .col{
+    margin: auto;
+    justify-content: space-between;
+}
+
+
