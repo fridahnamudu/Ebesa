@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.about-content{
+    background-image: url("/images/aboutimg2.png");
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 40% right 0;
+    position: sticky;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+}
+.about-content h2{
+    margin: auto;
+    color: white;
+    border-color: white;
+    border-width: 5px;
+    border-style:outset;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 350px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+
+}
+.our-history .container .row .col{
+    /* background-color:#0b3013; */
+    background-color: #214023;
+    /* border-color: aliceblue; */
+    /* border-style: double; */
+    width: 100%;
+    margin-right: 50px;
+    color: whitesmoke;
+    
+}
+.our-history .container .row .col h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    margin-left: 28%;
+    align-items: center;
+
+
+}
+.our-history .container .row .col p{
+    font-family: 'Poppins', sans-serif;
+}
+#services{
+    height: 1000px;
+    width: 100%;
+    justify-content: center;
+    background-color:#79957a;
+    padding: 30px;
+}
+#services h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+}
+.services img{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.services #carouselExampleFade{
+    margin-top: 100px;
+}
+
+.services .carousel-indicators button{
+    color: white;
+    width: 45px;
+    height: 5px;
+    border: 0px;
+    margin-inline-start: 8px;
+    margin-inline-end: 8px;
+    /* padding: 10px; */
+    /* justify-content: space-between; */
+
+}
+.services #button1{
+    background-color: transparent;
+    height: 50px;
+    margin-left: 400px;
+    margin-top: 12%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    border: 0px;
+}
+.services #button2{
+    background-color: transparent;
+    /* height: 50px; */
+    margin-right: 400px;
+    margin-top: 12%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    border: 0px;
+}
+
+
+#services h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    color: black;
+}
+.services .carousel-caption{
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    background-color: #214023;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.carousel-indicators active{
+    color: #79957a;
+}
+
+
+.vision h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color: #214023;
+}
+.vision .col{
+    width: 50%;
+    justify-content: flex-start;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #214023;
+}
+
+/* .our-history .container .row{
+    background-color:#0b3013;
+    
+} */

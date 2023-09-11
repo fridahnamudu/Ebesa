@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+.col h1{
+    margin-left: 35%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    /* margin-right: 50%; */
+
+}
+#intro{
+    margin-top: 60px;
+}
+#intro .col{
+    
+    width: 50%;
+    justify-content: flex-start;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #214023;
+}
+
+#first-sem .card {
+    width: 20rem;
+    height: 500px;
+    background-color: #79957a;
+}
+#first-sem .row{
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    /* flex-direction: column; */
+}
+#first-sem h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color: #214023;
+    /* text-decoration: underline; */
+}
+#first-sem .card-body button{
+    background-color: #214023;
+    color:#d8edd8 ;
+    width: 100px;
+    height: 30px;
+    padding: auto;
+    border-radius: 10px;
+    box-shadow: #214023;
+
+}
+#first-sem .card-body .reg:hover{
+    color: #214023;
+    background-color: #d8edd8;
+}
+#first-sem .card-body h2{
+    font-family: 'Poppins', sans-serif;
+    color:#214023;
+    font-weight: bold;
+
+}
+#first-sem .card-body p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* second-sem */
+#second-sem .card {
+    width: 20rem;
+    height: 450px;
+    background-color: #79957a;
+}
+#second-sem .row{
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    /* flex-direction: column; */
+}
+#second-sem h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color: #214023;
+    /* text-decoration: underline; */
+}
+#second-sem .card-body button{
+    background-color: #214023;
+    color:#d8edd8 ;
+    width: 100px;
+    height: 30px;
+    padding: auto;
+    border-radius: 10px;
+    box-shadow: #214023;
+
+}
+#second-sem .card-body .reg:hover{
+    color: #214023;
+    background-color: #d8edd8;
+}
+#second-sem .card-body h2{
+    font-family: 'Poppins', sans-serif;
+    color:#214023;
+    font-weight: bold;
+
+}
+#second-sem .card-body p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}

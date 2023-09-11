@@ -22,6 +22,11 @@ session_start();
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <link href="css/home.css" rel="stylesheet" type="text/css">
@@ -42,9 +47,9 @@ session_start();
                     <!-- <li><a href="/projects.php">P<span>rojects</span></a></li> -->
                     <li> <a href="/blogs.php">B<span>logs</span></li>
                     <!-- <li><a href="/">S<span>ervices</span></a></li> -->
-                    <li><a href="#events">O<span>ur Events</span></a></li>
+                    <li><a href="/events.php">O<span>ur Events</span></a></li>
                     <li><a href="/members.php"><span>M</span>embers</a></li>
-                    <li><a href="#contact"> C<span>ontact Us</span></a></li>
+                    <li><a href="/contact.php"> C<span>ontact Us</span></a></li>
 
                     <a href="#" id="close"> <i class="fa fa times" aria-hidden="true"></i></a>
                 </ul>
