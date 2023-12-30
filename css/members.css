@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+} 
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .card {
+      width: 100%;
+      display: block;
+    }
+  }
+  .col h1{
+    margin-left: 35%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    /* margin-right: 50%; */
+
+}
+#members{
+    margin-top: 60px;
+}
+#members .col{
+    
+    width: 50%;
+    justify-content: flex-start;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #214023;
+}
+
+
+  .row .card {
+    width: 20rem;
+    height: 500px;
+    background-color: transparent;
+    border-color: #d8edd8;
+    /* background-color: white; */
+}
+.row{
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 50px;
+    /* flex-direction: column; */
+}
+#team h1{
+  margin-left: 40%;
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
+/* h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color: #214023;
+    /* text-decoration: underline; */
+
+.card-body button{
+    background-color: #214023;
+    color:#d8edd8 ;
+    width: 100%;
+    height: 30px;
+    padding: auto;
+    /* border-radius: 10px; */
+    box-shadow: #214023;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.card-body .reg:hover{
+    color: #214023;
+    background-color: #d8edd8;
+}
+.card-body h2{
+    font-family: 'Poppins', sans-serif;
+    color:#214023;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.title{
+  font-weight: 500;
+  color: #79957a;
+}
+
+a{
+  /* text-decoration: none; */
+  font-style: italic;
+  color: #79957a;
+}
+
+.card-body .card-text p{
+    font-family: 'Poppins', sans-serif;
+    color:#214023;
+}
+.card-body .card-text p.title{
+  font: weight 20px;
+  color: #79957a;
+}
+.row .card img{
+  height: 50%;
+  border-radius: 50%;
+  
+}
+  
+ 
+  

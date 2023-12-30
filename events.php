@@ -64,10 +64,7 @@ include_once 'navbar.php';
 
                             </div>
                     </div>
-        <!-- </div> -->
-        <!-- <br>
-        <br> -->
-    <!-- <div class="row"> -->
+       
 
         <div class="card">
         <img src="/images/IMG_7534.jpg" class="card-img-top" alt="...">
@@ -138,11 +135,7 @@ include_once 'navbar.php';
 
                             </div>
                     </div>
-        <!-- </div> -->
-        <!-- <br>
-        <br> -->
-    <!-- <div class="row"> -->
-
+      
         <div class="card">
         <img src="/images/IMG_7534.jpg" class="card-img-top" alt="...">
             <div class="card-body">

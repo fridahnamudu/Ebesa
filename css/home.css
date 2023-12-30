@@ -236,103 +236,21 @@ body{
 }
 
 /* footer */
-#footer{
-    background-color: #0b3013;
+#footer-service h6{
     color: white;
-    height: 300px;
-    position: sticky;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-
+    font-weight: bold;
+    font-family:  'Poppins', sans-serif;
 }
-#footer img{
-    height: 50%;
-    width: 50%;
-    margin-top: 15%;
-    margin-left: 2px;
-    /* justify-content: center; */
-}
-#footer h4{
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    margin-top: 20px;
-    margin-left: 100px;
-}
-#footer ul{
-    font-size: 12px;
+#footer-service p{
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
-#footer #contact{
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
-    display: flex;
-    align-items: center;
+.social-links a{
     justify-content: space-between;
+    padding: 0 10px;
+    position: relative;
+    align-items: flex-end;
     
-}
-#footer #contact i{
-    font-size: 25px;
-}
-#footer #follow{
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
 
 }
-#footer #follow i{
-    font-size: 25px;
-}
-#footer #follow a{
-    /* text-decoration: none; */
-    color: white;
-}
-#footer #contact a{
-    color: white;
-}
-#footer #part1{
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-#footer #part2{
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-#footer #part3{
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-#footer #part4{
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-#footer .col{
-    margin: auto;
-    justify-content: space-between;
-}
-
-
