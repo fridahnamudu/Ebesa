@@ -42,7 +42,7 @@ session_start();
             
             <div>
                 <ul id="navbar">
-                    <li><a class="active" href="/home.php">H<span>ome</span></a></li>
+                    <li><a class="active" href="/index.php">H<span>ome</span></a></li>
                     <li><a href="/about.php"> A<span>bout Us</span></a></li>
                     <!-- <li><a href="/projects.php">P<span>rojects</span></a></li> -->
                     <li> <a href="/blogs.php">B<span>logs</span></li>

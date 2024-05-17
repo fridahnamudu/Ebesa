@@ -30,7 +30,7 @@ include_once 'navbar.php';
         <br>
         <div class="row">
                 <div class="card" >
-                            <img src="/images/IMG_7504.jpg" class="card-img-top" alt="...">
+                            <img src="/images/orientation.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                  <p class="card-text">
                                     <h2>First year orientatation</h2>
@@ -42,7 +42,7 @@ include_once 'navbar.php';
            
 
                     <div class="card">
-                            <img src="/images/IMG_7534.jpg" class="card-img-top" alt="...">
+                            <img src="/images/kabete visit.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">
                                 <h2>Kabete Visit</h2>
@@ -67,7 +67,7 @@ include_once 'navbar.php';
        
 
         <div class="card">
-        <img src="/images/IMG_7534.jpg" class="card-img-top" alt="...">
+        <img src="/images/childrenshome.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">
                 <h2>Children's Home Visit</h2>
