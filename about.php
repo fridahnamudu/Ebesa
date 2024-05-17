@@ -23,7 +23,7 @@ include_once 'navbar.php';
                                         <br>
                                         <h2>Our Origin</h2>
                                         <br>
-                                                                        <p>The origin of Environmental and Biosystems Engineering at the University of Nairobi can be traced back to 1965 when the Department of Mechanical Engineering, 
+                                        <p>The origin of Environmental and Biosystems Engineering at the University of Nairobi can be traced back to 1965 when the Department of Mechanical Engineering, 
                                 Faculty of Engineering introduced a section in Agricultural Engineering focusing on Agricultural Process Engineering. </p>
                 
                                 <!-- <p>The Department of Agricultural Engineering of University of Nairobi was established in 1975 originally as the Department of Agricultural Mechanization and Farm planning. 
