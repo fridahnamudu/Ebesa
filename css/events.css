@@ -187,7 +187,17 @@
 
 
 /* GALLERY*/
-#gallery {
+#gallery h1{
+    font-size: 60px;
+    color: #214023;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 70px;
+
 
 }
 

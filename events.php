@@ -80,7 +80,7 @@ include_once 'navbar.php';
         <br>
         <div class="row">
                 <div class="card" >
-                    <img src="/images/IMG_7504.jpg" class="card-img-top" alt="...">
+                    <img src="/images/coast1.jpg" class="card-img-top" alt="...">
                            
                     <h2>EBESA Annual Trip</h2>
                     <button class="reg">Register</button>
@@ -116,7 +116,7 @@ include_once 'navbar.php';
          
     </section>
     <section id="gallery">
-        <h1>Gallery</h1>
+        <h1>Our Gallery</h1>
         <div class="row">
             <div class="column">
                 <img src="/images/5thyr.jpg">
@@ -124,6 +124,8 @@ include_once 'navbar.php';
                 <img src="/images/DSC_0152.png">
                 <img src="/images/IMG-20231021-WA0040.jpg" alt="">
                 <img src="/images/DSC_69822150.jpg" alt="">
+                <!-- <img src="/images/WhatsApp Image 2024-05-18 at 15.04.37.jpeg" alt=""> -->
+                <!-- <img src="/images/WhatsApp Image 2024-05-18 at 15.06.19 (1).jpeg" alt=""> -->
 
 
                
@@ -133,6 +135,8 @@ include_once 'navbar.php';
                 <img src="/images/DSC_0717(1).jpg">
                 <img src="/images/DSC_0738.jpg">
                 <img src="/images/IMG-20231001-WA0008.jpg">
+                <img src="/images/WhatsApp Image 2024-05-18 at 15.04.37.jpeg" alt="">
+                <img src="/images/WhatsApp Image 2024-05-18 at 15.08.34.jpeg" alt="">
 
 
                 
@@ -141,8 +145,10 @@ include_once 'navbar.php';
                 <img src="/images/IMG-20230311-WA0021.jpg">
                 <img src="/images/IMG-20230408-WA0010.jpg">
                 <img src="/images/IMG-20230829-WA0019.jpg">
+                <img src="/images/WhatsApp Image 2024-05-18 at 15.08.35 (1).jpeg">
+                <img src="/images/WhatsApp Image 2024-05-18 at 17.07.47.jpeg">
                 <img src="/images/WhatsApp Image 2024-05-18 at 15.06.19.jpeg" alt="">
-                <img src="/images/IMG-20231001-WA0008.jpg">
+                <!-- <img src="/images/IMG-20231001-WA0008.jpg"> -->
 
                 
             </div>
@@ -152,6 +158,7 @@ include_once 'navbar.php';
                 <img src="/images/WhatsApp Image 2024-05-18 at 15.06.19.jpeg" alt="">
                 <img src="/images/DSC_69822150.jpg" alt="">
                 <img src="/images/IMG-20231001-WA0008.jpg">
+                <img src="/images/WhatsApp Image 2024-05-18 at 17.07.48.jpeg" alt="">
 
 
 
