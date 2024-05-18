@@ -31,69 +31,48 @@ include_once 'navbar.php';
         <div class="row">
                 <div class="card" >
                             <img src="/images/orientation.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                 <p class="card-text">
-                                    <h2>First year orientatation</h2>
-                                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <button class="reg">Register</button>
-
-                            </div>
+                            <h2>First Year orientatation</h2>
+                            <button class="reg">Register</button> 
+                            
                 </div>
            
 
                     <div class="card">
                             <img src="/images/kabete visit.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">
-                                <h2>Kabete Visit</h2>
-                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <button class="reg">Register</button>
-
-                            </div>
+                            <h2>Kabete Visit</h2>
+                            <button class="reg">Register</button>
+                               
                     </div>
          
 
                     <div class="card">
-                            <img src="/images/IMG_7504.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <h2>Ebesa Cup</h2>
+                            <img src="/images/ebesa cup.jpeg" class="card-img-top" alt="...">
+                                <h2>Ebesa Cup</h2>
+                                <button class="reg">Register</button>
 
-                                   <p> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                   <button class="reg">Register</button>
-
-                            </div>
                     </div>
        
 
-        <div class="card">
-        <img src="/images/childrenshome.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">
-                <h2>Children's Home Visit</h2>
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button class="reg">Register</button>
+                        <div class="card">
+                            <img src="/images/childrenshome.jpg" class="card-img-top" alt="...">
+                            
+                                    <h2>Children's Home Visit</h2>
+                                    <button class="reg">Register</button>
 
-            </div>
+                            </div>
+                            
+
+                            <div class="card">
+                            <img src="/images/careertalk.jpeg" class="card-img-top" alt="...">
+                                
+                                    <h2>Career Talk</h2>
+                                    <button class="reg">Register</button>
+
+                            </div>
         </div>
-         
-
-        <div class="card">
-        <img src="/images/IMG_7504.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">
-                <h2>Career Talk</h2>
-                <p> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button class="reg">Register</button>
-
-            </div>
-        </div>
-    </div>
-        
 
     </section>
-    <br>
-    <br>
+    
 
     <section id="second-sem">
         <h1>Second Semister Events</h1>
@@ -101,61 +80,68 @@ include_once 'navbar.php';
         <br>
         <div class="row">
                 <div class="card" >
-                            <img src="/images/IMG_7504.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                 <p class="card-text">
-                                    <h2>EBESA Annual Trip</h2>
-                                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <button class="reg">Register</button>
+                    <img src="/images/IMG_7504.jpg" class="card-img-top" alt="...">
+                           
+                    <h2>EBESA Annual Trip</h2>
+                    <button class="reg">Register</button>
 
-                            </div>
                 </div>
            
 
                     <div class="card">
                             <img src="/images/IMG_7534.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">
+                           
                                 <h2>Tree Planting</h2>
-                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <button class="reg">Register</button>
 
-                            </div>
                     </div>
          
 
                     <div class="card">
                             <img src="/images/IMG_7504.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <h2>Ebesa Elections</h2>
+                            <h2>Ebesa Elections</h2>
 
-                                   <p> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                   <button class="reg">Register</button>
+                            <button class="reg">Register</button>
 
-                            </div>
                     </div>
       
-        <div class="card">
-        <img src="/images/IMG_7534.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">
-                <h2>EBESA Dinner</h2>
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button class="reg">Register</button>
+            <div class="card">
+                    <img src="/images/IMG_7534.jpg" class="card-img-top" alt="...">
+            
+                    <h2>EBESA Dinner</h2>
+                    <button class="reg">Register</button>
 
             </div>
         </div>
          
-
-    </div>
-
-    <br>
-    <br>
-        
-
-
-
+    </section>
+    <section class="gallery">
+        <h1>Gallery</h1>
+        <div class="row">
+            <div class="column">
+                <img src="wedding.jpg">
+                <img src="rocks.jpg">
+                <img src="falls2.jpg">
+                
+            </div>
+            <div class="column">
+                <img src="underwater.jpg">
+                <img src="ocean.jpg">
+                
+            </div>
+            <div class="column">
+                <img src="wedding.jpg">
+                <img src="rocks.jpg">
+                <img src="falls2.jpg">
+                
+            </div>
+            <div class="column">
+                <img src="underwater.jpg">
+                <img src="ocean.jpg">
+                <img src="wedding.jpg">
+                
+            </div>
+            </div>
 
     </section>
 

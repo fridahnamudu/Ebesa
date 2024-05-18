@@ -27,16 +27,103 @@
     color: #214023;
 }
 
-#first-sem .card {
+
+#first-sem  .card {
     width: 20rem;
-    height: 500px;
-    background-color: #79957a;
+    height: 600px;
+    background-color: transparent;
+
+    border: 0;
 }
-#first-sem .row{
-    justify-content: space-around;
+#second-sem .card {
+    width: 20rem;
+    height: 600px;
+    background-color: transparent;
+
+    border: 0;
+}
+#first-sem  .card img{
+    height: fit-content;
+}
+#second-sem .card img{
+    height: fit-content;
+}
+#first-sem .card h2{
+    position: absolute;
+    margin-top: 42%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    /* background-image: linear-gradient(to top,rgba(14, 61, 4, 0.932),rgba(118, 126, 116, 0.932)); */
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 12vh;
+}
+#second-sem .card h2{
+    position: absolute;
+    margin-top: 42%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    /* background-image: linear-gradient(to top,rgba(14, 61, 4, 0.932),rgba(118, 126, 116, 0.932)); */
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    height: 12vh;
+
+}
+#first-sem  .card button{
+    position: absolute;
+    /* background-color: transparent; */
+    margin-left: 55px;
+    margin-top: 60%;
+    width: 200px;
+    border-color: white;
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+    background: rgb(9, 82, 15);
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+#second-sem  .card button{
+    position: absolute;
+    /* background-color: transparent; */
+    margin-left: 55px;
+    margin-top: 60%;
+    width: 200px;
+    border-radius: 20px;
+    border-color: white;
+
+    height: 40px;
+    color: white;
+    background: rgb(9, 82, 15);
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+#first-sem{
+    margin-bottom: 10px;
+}
+#first-sem  .row{
+    justify-content:space-around;
     margin: auto;
     align-items: center;
-    /* flex-direction: column; */
+    /* 
+    margin: 10%; */
+}
+#second-sem {
+    margin-top: 0;
+}
+#second-sem  .row{
+    justify-content:space-around;
+    margin: auto;
+    align-items: center;
+    
 }
 #first-sem h1{
     display: flex;
@@ -50,7 +137,29 @@
     color: #214023;
     /* text-decoration: underline; */
 }
-#first-sem .card-body button{
+#second-sem h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color: #214023;
+    /* text-decoration: underline; */
+}
+#first-sem  .card-body button{
+    background-color: #214023;
+    color:#d8edd8 ;
+    width: 100px;
+    height: 30px;
+    padding: auto;
+    border-radius: 10px;
+    box-shadow: #214023;
+
+}
+#second-sem  .card-body button{
     background-color: #214023;
     color:#d8edd8 ;
     width: 100px;
@@ -64,62 +173,17 @@
     color: #214023;
     background-color: #d8edd8;
 }
+#second-sem .card-body .reg:hover{
+    color: #214023;
+    background-color: #d8edd8;
+}
 #first-sem .card-body h2{
     font-family: 'Poppins', sans-serif;
     color:#214023;
     font-weight: bold;
 
 }
-#first-sem .card-body p{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-}
+
+
 
 /* second-sem */
-#second-sem .card {
-    width: 20rem;
-    height: 450px;
-    background-color: #79957a;
-}
-#second-sem .row{
-    justify-content: space-around;
-    margin: auto;
-    align-items: center;
-    /* flex-direction: column; */
-}
-#second-sem h1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    margin: auto;
-    font-size: 60px;
-    font-weight: bold;
-    font-family: 'Great Vibes', cursive;
-    color: #214023;
-    /* text-decoration: underline; */
-}
-#second-sem .card-body button{
-    background-color: #214023;
-    color:#d8edd8 ;
-    width: 100px;
-    height: 30px;
-    padding: auto;
-    border-radius: 10px;
-    box-shadow: #214023;
-
-}
-#second-sem .card-body .reg:hover{
-    color: #214023;
-    background-color: #d8edd8;
-}
-#second-sem .card-body h2{
-    font-family: 'Poppins', sans-serif;
-    color:#214023;
-    font-weight: bold;
-
-}
-#second-sem .card-body p{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-}
