@@ -115,30 +115,46 @@ include_once 'navbar.php';
         </div>
          
     </section>
-    <section class="gallery">
+    <section id="gallery">
         <h1>Gallery</h1>
         <div class="row">
             <div class="column">
-                <img src="wedding.jpg">
-                <img src="rocks.jpg">
-                <img src="falls2.jpg">
+                <img src="/images/5thyr.jpg">
+                <img src="/images/coast1.jpg">
+                <img src="/images/DSC_0152.png">
+                <img src="/images/IMG-20231021-WA0040.jpg" alt="">
+                <img src="/images/DSC_69822150.jpg" alt="">
+
+
+               
+            </div>
+            <div class="column">
+                <img src="/images/ebesa cup.jpeg">
+                <img src="/images/DSC_0717(1).jpg">
+                <img src="/images/DSC_0738.jpg">
+                <img src="/images/IMG-20231001-WA0008.jpg">
+
+
                 
             </div>
             <div class="column">
-                <img src="underwater.jpg">
-                <img src="ocean.jpg">
+                <img src="/images/IMG-20230311-WA0021.jpg">
+                <img src="/images/IMG-20230408-WA0010.jpg">
+                <img src="/images/IMG-20230829-WA0019.jpg">
+                <img src="/images/WhatsApp Image 2024-05-18 at 15.06.19.jpeg" alt="">
+                <img src="/images/IMG-20231001-WA0008.jpg">
+
                 
             </div>
             <div class="column">
-                <img src="wedding.jpg">
-                <img src="rocks.jpg">
-                <img src="falls2.jpg">
-                
-            </div>
-            <div class="column">
-                <img src="underwater.jpg">
-                <img src="ocean.jpg">
-                <img src="wedding.jpg">
+                <img src="/images/IMG-20231001-WA0020.jpg">
+                <img src="/images/WhatsApp Image 2024-05-18 at 15.04.37.jpeg">
+                <img src="/images/WhatsApp Image 2024-05-18 at 15.06.19.jpeg" alt="">
+                <img src="/images/DSC_69822150.jpg" alt="">
+                <img src="/images/IMG-20231001-WA0008.jpg">
+
+
+
                 
             </div>
             </div>
