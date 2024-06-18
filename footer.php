@@ -24,7 +24,7 @@ session_start();
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 
         <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <link href="css/home.css" rel="stylesheet" type="text/css">
+        <link href="css/footer.css" rel="stylesheet" type="text/css">
         <script src="js/script.js"></script>
         <link href="css/about.css" rel="stylesheet" type="text/css">
         <link href="css/navbar.css" rel="stylesheet" type="text/css">
@@ -32,128 +32,73 @@ session_start();
 </head>
 <body>
 
-<!-- Footer -->
-<footer class="text-center text-lg-start text-dark" style="background-color: #214023">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-between p-4 text-white" style="background-color: #214023">
-      <!-- Left -->
-      <div class="me-5" style="font-family: 'Poppins', sans-serif">
-        <span>Get connected with us on social networks:</span>
-      </div>
-      <!-- Left -->
+<section id="footer">
+  <footer>
+    <div class="footer-container">
+      <div class="row">
+        <div class="column">
+        <a href="#"><img src="images/ebesalogo.jpeg" alt=""></a>
 
-      <!-- Right -->
-      <div class="social-links">
-        <a href="" class="text-white me-4">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://instagram.com/ebesa_uon?igshid=ZGUzMzM3NWJiOQ==" class="text-white me-4">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.linkedin.com/company/ebesauon/?viewAsMember=true" class="text-white me-4">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="mailto:ebesaofficial@gmail.com" class="text-white me-4">
-          <i class="fa fa-envelope-o"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <div class="col-10">
-              <img class="img-fluid" src="./images/ebesalogo.jpeg" alt="">
-            </div>
-          </div>
-          <!-- Grid column -->
-
-
-
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" id="footer-service">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Quick Navigation</h6>
-            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 130px; background-color: white; height: 2px" />
-            <p>
-              <a href="./home.php" class="text-light">Home</a>
-            </p>
-            <p>
-              <a href="./views/about.php" class="text-light">About Us</a>
-            </p>
-            <p>
-              <a href="./views/about.php" class="text-light">Blogs</a>
-            </p>
-            <p>
-              <a href="./views/about.php" class="text-light">Our Events</a>
-            </p>
-            <p>
-              <a href="./views/about.php" class="text-light">Members</a>
-            </p>
-            <p>
-              <a href="./views/about.php" class="text-light">Contact Us</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-
-          <!-- Grid column -->
-          <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" id="footer-service"> -->
-            <!-- Services -->
-            <!-- <h6 class="text-uppercase fw-bold">Services</h6>
-            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; background-color: white; height: 2px" />
-            <p>
-              <a href="#!" class="text-light">Service 1</a>
-            </p>
-            <p>
-              <a href="#!" class="text-light">Service 2</a>
-            </p>
-            <p>
-              <a href="#!" class="text-light">Service 3</a>
-            </p>
-            <p>
-              <a href="#!" class="text-light">Service 4</a>
-            </p>
-          </div> -->
-          <!-- Grid column -->
-
-
-
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" id="footer-service">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Contact</h6>
-            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: white; height: 2px" />
-            <p><i class="fas fa-home mr-1"></i> Upper Kabete Campus,EBE</p>
-            <p><i class="fas fa-envelope mr-3"></i>ebesaofficial@gmail.com</p>
-            <p><i class="fas fa-phone mr-3"></i> 07123456789ne</p>
-          </div>
-          <!-- Grid column -->
         </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links  -->
+        <div class="column">
+            <h1>QUICK NAVIGATION</h1>
+            <hr>
+            <div class="column">
+                <li><a href="./home.php">Home</a></li>
+                <li><a href="./views/about.php" >About Us</a></li>
+                <li><a href="./views/about.php">Blogs</a></li>
+            </div>
+            <div class="column">
+              <li><a href="./views/about.php" >Our Events</a></li>
+              <li><a href="./views/about.php" >Members</a></li>
+              <li><a href="./views/about.php" >Contact Us</a></li>
+          
+            </div>
+        </div>
+            
+        <div class="column">
+              <h1>CONTACT</h1>
+              <hr>
+              
+              <li><i class="fas fa-home mr-1"></i> Upper Kabete Campus,EBE</li>
+              <li><i class="fas fa-envelope mr-3"></i>ebesaofficial@gmail.com</li>
+              <li><i class="fas fa-phone mr-3"></i> 07123456789</li>
+            </div>
+        </div>
 
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color:#79957a">
-      © 2023 Copyright:
-      <a class="text-light" href="./home.php">Ebesa.com</a>
+    
+      </div>
+
+    
     </div>
-    <!-- Copyright -->
+    <div class="social-links">
+        <span>Get connected with us on social networks:</span>
+          
+        
+          <!-- <div class="social-links"> -->
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/ebesa_uon?igshid=ZGUzMzM3NWJiOQ=="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/ebesauon/?viewAsMember=true"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:ebesaofficial@gmail.com"><i class="fa fa-envelope-o"></i></a>
+          </div>
+      </div>
+
+      <div class="copyright">
+        © 2024 Copyright:
+        
+        <a  href="./home.php">Ebesa.com</a>
+      </div>
+
+
+
   </footer>
-  <!-- Footer -->
+
+          
+
+
+    
+ 
+</section>
 </body>
 </html>

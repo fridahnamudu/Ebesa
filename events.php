@@ -88,16 +88,15 @@ include_once 'navbar.php';
                 </div>
            
 
-                    <div class="card">
-                            <img src="/images/IMG_7534.jpg" class="card-img-top" alt="...">
-                           
-                                <h2>Tree Planting</h2>
-                                <button class="reg">Register</button>
+                <div class="card">
+                    <img src="/images/treeplant.jpeg" class="card-img-top" alt="...">
+                    <h2>Tree Planting</h2>
+                    <button class="reg">Register</button>
 
                     </div>
          
 
-                    <div class="card">
+                <div class="card">
                             <img src="/images/IMG_7504.jpg" class="card-img-top" alt="...">
                             <h2>Ebesa Elections</h2>
 
@@ -106,7 +105,7 @@ include_once 'navbar.php';
                     </div>
       
             <div class="card">
-                    <img src="/images/IMG_7534.jpg" class="card-img-top" alt="...">
+                    <img src="/images/IMG_7504.jpg" class="card-img-top" alt="...">
             
                     <h2>EBESA Dinner</h2>
                     <button class="reg">Register</button>

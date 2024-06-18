@@ -42,6 +42,9 @@ body{
     margin-bottom: 10px;
 
 }
+.navbar .icon{
+    display: none;
+}
 #navbar{
     display: flex;
     align-items: center;
@@ -85,7 +88,56 @@ body{
 }
 
 
+@media screen and (max-width: 768px) {
+  .header {
+    position: relative;
+  }
 
+  #navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #333;
+    flex-direction: column;
+    display: none;
+  }
+  
+  #navbar li {
+    text-align: center;
+  }
+  
+  #navbar.active {
+    display: flex;
+  }
+  
+  #navbar a {
+    padding: 1rem 0;
+  }
+  
+  #close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  #menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  #menu.close {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><line x1='18' y1='6' x2='6' y2='18'/><line x1='6' y1='6' x2='18' y2='18'/></svg>");
+    background-size: 24px 24px;
+    background-position: center;
+    border: none;
+  }
+ 
+}
 
 #home-body{
     background-image: linear-gradient(to right,rgba(2, 19, 5, 0.932),rgba(0, 0, 0, 0)), url("/images/index.jpg");
@@ -97,7 +149,7 @@ body{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    
+    margin-bottom: 0px;
 }  
 
 #home-body{
@@ -123,7 +175,6 @@ body{
 
 #home-body h2{
     margin-left: 40px;
-
     font-family: 'Poppins', serif;
     font-size: 50px;
     color: white;
@@ -163,12 +214,38 @@ body{
 }
 
 
+@media only screen and (max-width: 400px) {
+    #home-body .home-content h1{
+        font-size: 30px;
+    }
+    #about .row .card{
+        grid-template-columns: 1fr;
+    }
+    .home-content button{
+        width: 300px;
+        font-size: 10px;
+    }
+   
+}
+
+@media only screen and (max-width: 800px) {
+    .home-content h1{
+        font-size: 30px;
+    }
+    #about .card{
+        grid-template-columns: 1fr;
+    }
+   
+}
+
+
 
 
 #about{
     background-color:#d8edd8;
     /* text-align: center; */
     color: black;
+    margin-top: 0px;
 }
 #about h1{
     font-weight: bold;
@@ -179,7 +256,7 @@ body{
     margin-bottom: 80px;
 
 }
-#about .card img{
+/* #about .card img{
     width: 40%;
     margin-top: 10px;
 }
@@ -210,6 +287,93 @@ body{
     margin: auto;
     margin-bottom: 30px;
 }
+@media only screen and (max-width: 400px) {
+
+    
+} */
+
+
+.about-container {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    background-color: #0b3013;
+}
+.about-container h1{
+    color: #c0e2c0;
+}
+.about-container button{
+    width: 300px;
+    background-color: #c0e2c0;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.about-container .about-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+.about-cards .about-card {
+    width: 250px;
+    height: 350px;
+    /* border: 1px solid #c85103; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    /* gap: 2em; */
+    border-radius: 0.75em;
+    box-shadow: 0 0.25em 1em rgba(128, 128, 128, 0.226);
+    background-color: #c0e2c0;
+}
+
+.about-card img{
+    width: 20%;
+    /* filter: drop-shadow(0 2px 4px #c852034f); */
+}
+.about-card p {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 0.25em; */
+    color: #0b3013;
+    font-size: 15px;
+}
+
+
+
+
+.about-card:hover {
+    animation: transform 3s ease-in-out infinite;
+}
+
+@keyframes transform {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+
 
 
 /* stats */
@@ -297,23 +461,3 @@ body{
 
 
 
-
-/* footer */
-#footer-service h6{
-    color: white;
-    font-weight: bold;
-    font-family:  'Poppins', sans-serif;
-}
-#footer-service p{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
-.social-links a{
-    justify-content: space-between;
-    padding: 0 10px;
-    position: relative;
-    align-items: flex-end;
-    
-    
-
-}

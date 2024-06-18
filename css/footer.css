@@ -1,0 +1,233 @@
+#footer{
+    height: 50vh;
+    width: 100%;
+    background-color:#0b3013;
+    color: #b6f7b6;
+
+}
+.footer-container .column{
+    margin-top: 4%;
+}
+.footer-container .column{
+    float: left;
+    width: 33.3%;
+
+}
+.footer-container .row:after{
+    display: table;
+    clear:both;
+}
+
+.footer-container .column hr{
+    border-top: 2px solid #b6f7b6;
+    width: 380px;
+    
+}
+.footer-container .column h1{
+    color: #b6f7b6;
+    font-weight: lighter;
+}
+
+.footer-container .column li {
+    text-decoration: none;
+    list-style: none;
+    color: #b6f7b6;
+}
+.footer-container .column .column li a{
+    text-decoration: none;
+    list-style: none;
+    color: #b6f7b6;
+
+}
+.footer-container .column img{
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 12%;
+}
+.social{
+    width: 100%;
+
+}
+.social-links{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    /* margin-bottom: px; */
+}
+.social-links a i{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    width: 40px;
+    font-size: 30px;
+
+}
+
+.social-links span{
+    margin-right: 50px;
+    color: white;
+}
+
+.copyright{
+    background-color: #94db94;
+    color: #0b3013;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+}
+.copyright a{
+    margin-left: 10px;
+    color: #0b3013;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    
+    .footer-container .column{
+        width: 60%;
+        float: left;
+        margin-bottom: 10px;
+        /* margin-left: 100%; */
+        
+    
+    }
+    .footer-container .row .column img{
+        display: none;
+    }
+    .footer-container .column{
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+        /* display: flex; */
+    }
+    .footer-container .column h1{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .footer-container .column hr{
+        max-width: 100px;
+    }
+    .footer-container .column li {
+        font-size: 10px;
+    }
+    .social-links{
+        margin-top: 8px;
+    }
+    .social-links span{
+        display: none;
+    }
+    .social-links a i{
+        font-size: 15px;
+    }
+
+    .copyright{
+        margin-top: 8px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #footer{
+        height: 20vh;
+    }
+    .footer-container .column{
+        width: 33.3%;
+        float: left;
+        margin-bottom: 10px;
+        /* margin-left: 100%; */
+        
+    
+    }
+    .footer-container .row .column img{
+
+    }
+    .footer-container .column{
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+        /* display: flex; */
+    }
+    .footer-container .column h1{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .footer-container .column hr{
+        max-width: 100px;
+    }
+    .footer-container .column li {
+        font-size: 10px;
+    }
+    .social-links{
+        margin-top: 8px;
+    }
+    .social-links span{
+        display: none;
+    }
+    .social-links a i{
+        font-size: 15px;
+    }
+
+    .copyright{
+        margin-top: 8px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #footer{
+        height: 25vh;
+    }
+    .footer-container .column hr{
+        max-width: 150px;
+    }
+    .footer-container .column li {
+        font-size: 15px;
+    }
+    .social-links{
+        margin-top: 15px;
+    }
+   
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+/* 
+@media all and (min-device-width : 320px) and (max-device-width : 480px) {
+    .footer-container .column h1{
+        font-size: 10px ;
+    }
+    .footer-container .column img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1500 ) {
+    .footer-container .column{
+        float: left;
+    
+    }
+    .footer-container .column h1{
+        font-size: 12px;
+    }
+} */

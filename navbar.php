@@ -27,6 +27,9 @@ session_start();
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <link href="css/home.css" rel="stylesheet" type="text/css">
@@ -35,10 +38,30 @@ session_start();
         <link href="css/navbar.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
-<body>
+    <script>
+        $(document).ready(function() {
+        $("#menu").click(function() {
+            $("#navbar").toggleClass("active");
+        });
+
+        $("#close").click(function() {
+            $("#navbar").removeClass("active");
+        });
+        });
+        const menuBtn = document.getElementById("menu");
+        menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("close");
+        document.getElementById("navbar").classList.toggle("active");
+        });
+    </script>
     <body>
         <section id="header" class="header">
+            
             <a href="#"><img src="images/ebesalogo.jpeg" alt=""></a>
+            <div>
+                
+            </div>
+
             
             <div>
                 <ul id="navbar">
@@ -50,11 +73,13 @@ session_start();
                     <li><a href="/events.php">O<span>ur Events</span></a></li>
                     <li><a href="/members.php"><span>M</span>embers</a></li>
                     <li><a href="/contact.php"> C<span>ontact Us</span></a></li>
-
+                   
                     <a href="#" id="close"> <i class="fa fa times" aria-hidden="true"></i></a>
                 </ul>
                 </div>
             </div>
+
+            
         </section>
     
 </body>

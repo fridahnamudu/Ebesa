@@ -1,6 +1,10 @@
 <?php
 include_once 'navbar.php';
 ?>
+<style>
+  <?php include "home.css" ?>
+</style>
+
 
 <!DOCTYPE html>
 <html>
@@ -22,26 +26,27 @@ include_once 'navbar.php';
                     <br>
                     <button type="button">Join Us</button>
                     <br>
-                    </div>
+            </div>
                  
 
         </section>
-        <br>
-        <br>
-
+       
         <section id="about">
+        <div class="about-container">
             <h1>About Us</h1>
-            <div class="row">
-                <div class="card" >
+            <div class="about-cards">
+    
+                <div class="about-card" >
                             <img src="/images/community.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                  <p class="card-text">
-                                    <p>The Environmental and Biosystems Engineering Students Association (EBESA) is a dynamic community of passionate individuals committed 
+                                    The Environmental and Biosystems Engineering Students Association (EBESA) is a dynamic community of passionate individuals committed 
                                         to advancing sustainable solutions and fostering innovation in the realm of environmental and biosystems engineering. </p>
 
                             </div>
                 </div>
-                <div class="card" >
+
+                <div class="about-card" >
                             <img src="/images/explore.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                  <p class="card-text">
@@ -51,16 +56,15 @@ include_once 'navbar.php';
 
                             </div>
                 </div>
-                <div class="card" >
+                <div class="about-card" >
                             <img src="/images/knowledge.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                  <p class="card-text">
                                     <p>By promoting interdisciplinary dialogue and hands-on experiences,
-                        EBESA cultivates a platform for knowledge exchange, encouraging its members to envision a greener future. 
-                       </p>
+                                        EBESA cultivates a platform for knowledge exchange, encouraging its members to envision a greener future. </p>
                             </div>
                 </div>
-                <div class="card" >
+                <div class="about-card" >
                             <img src="/images/togther.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                  <p class="card-text">
@@ -69,12 +73,11 @@ include_once 'navbar.php';
 
                             </div>
                 </div>
-               
-
-          
-
             </div>
             <a href="/about.php"><button type="button">Learn More</button></a>
+
+        </div>
+
 
 
                

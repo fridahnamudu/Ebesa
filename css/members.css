@@ -1,121 +1,88 @@
-*{
-  margin: 0;
-  padding: auto;
+* {
   box-sizing: border-box;
-} 
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .card {
-      width: 100%;
-      display: block;
-    }
-  }
-  .col h1{
-    margin-left: 35%;
-    font-family: 'Great Vibes', cursive;
-    font-size: 50px;
-    font-weight: bold;
-    /* margin-right: 50%; */
-
-}
-#members{
-    margin-top: 60px;
-}
-#members .col{
-    
-    width: 50%;
-    justify-content: flex-start;
-    margin: auto;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    color: #214023;
 }
 
-
-  .row .card {
-    width: 20rem;
-    height: 500px;
-    background-color: transparent;
-    border-color: #d8edd8;
-    /* background-color: white; */
+#members .team{
+  align-items: center;
+  justify-content: center;
+  /* display: flex; */
+  margin: auto;
+  max-width: 900px;
 }
-.row{
-    justify-content: space-around;
-    margin: auto;
-    align-items: center;
-    margin-bottom: 50px;
-    /* flex-direction: column; */
+
+#members .team h1{
+  font-size: 60px;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+
+
+}
+#members .team p{
+  font-size: 25px;
+
 }
 #team h1{
-  margin-left: 40%;
-  font-family: 'Great Vibes', cursive;
-  font-size: 50px;
   font-weight: bold;
-}
-/* h2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    margin: auto;
-    font-size: 60px;
-    font-weight: bold;
-    font-family: 'Great Vibes', cursive;
-    color: #214023;
-    /* text-decoration: underline; */
-
-.card-body button{
-    background-color: #214023;
-    color:#d8edd8 ;
-    width: 100%;
-    height: 30px;
-    padding: auto;
-    /* border-radius: 10px; */
-    box-shadow: #214023;
-    margin: auto;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-top: 50px;
+  /* margin-top: 50px; */
 
 }
-.card-body .reg:hover{
-    color: #214023;
-    background-color: #d8edd8;
-}
-.card-body h2{
-    font-family: 'Poppins', sans-serif;
-    color:#214023;
-    font-weight: bold;
-    font-size: 25px;
-
-}
-.title{
-  font-weight: 500;
-  color: #79957a;
+#team{
+  background-color: #b6f7b6;
+  height: 170vh;
 }
 
-a{
-  /* text-decoration: none; */
-  font-style: italic;
-  color: #79957a;
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
-
-.card-body .card-text p{
-    font-family: 'Poppins', sans-serif;
-    color:#214023;
-}
-.card-body .card-text p.title{
-  font: weight 20px;
-  color: #79957a;
-}
-.row .card img{
-  height: 50%;
-  border-radius: 50%;
+.row .column{
+  width: 15%;
+  /* margin-left: 50px; */
+  float: left;
+  justify-content: space-between;
   
 }
-  
- 
-  
+.row{
+  justify-content: space-around;
+  /* margin-bottom: 10px; */
+  margin-top: 60px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  padding: 2px 16px;
+}
+.row .column .card h4{
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.row .column .card p{
+  text-align: center;
+  justify-content: center;
+
+}
+.row .column .card img{
+  height: 300px;
+}
+.row .column .card {
+  background-color:#b6f7b6 ;
+}
