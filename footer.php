@@ -68,30 +68,26 @@ session_start();
 
     
       </div>
+        <div class="social-links">
+          <span>Get connected with us on social networks:</span>
+            
+          
+            <!-- <div class="social-links"> -->
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com/ebesa_uon?igshid=ZGUzMzM3NWJiOQ=="><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ebesauon/?viewAsMember=true"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:ebesaofficial@gmail.com"><i class="fa fa-envelope-o"></i></a>
+            </div>
+          
+        </div>
+          <div class="copyright">
+                © 2024 Copyright: <a href="./home.php">Ebesa.com</a>
+          </div>
 
     
     </div>
-    <div class="social-links">
-        <span>Get connected with us on social networks:</span>
-          
-        
-          <!-- <div class="social-links"> -->
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com/ebesa_uon?igshid=ZGUzMzM3NWJiOQ=="><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/ebesauon/?viewAsMember=true"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:ebesaofficial@gmail.com"><i class="fa fa-envelope-o"></i></a>
-          </div>
-      </div>
-
-      <div class="copyright">
-        © 2024 Copyright:
-        
-        <a  href="./home.php">Ebesa.com</a>
-      </div>
-
-
-
+    
   </footer>
 
           
